@@ -37,6 +37,16 @@ div.container1 {
     background: #FC8F8F;  
 }
 
+.kvadro2.textbig.margin {
+    position: relative;   
+    width: 200px;
+    height: 200px;    
+    float: left;    
+    background: #FC8F8F;  
+}
+
+
+
 div.kvadro2 {
     float: left;
 }
