@@ -29,7 +29,7 @@ div.container1 {
      
 }
 
-.kvadro2 {
+.kvadro2.textbig {
     position: relative;   
     width: 200px;
     height: 200px;    
@@ -37,12 +37,16 @@ div.container1 {
     background: #FC8F8F;  
 }
 
+div.kvadro2 {
+    float: left;
+}
+
 .kvadro3 {
     position: relative;   
     width: 100px;
     height: 100px;
-    margin-left: 15px;    
-    float: right;    
+    margin-left: 15px;
+    float: left; 
     background: #FC8F8F;
 }
 
@@ -95,4 +99,8 @@ div.kvadro1 div.kvadro2 div.kvadro3 p {
 
 .margin {
     margin-left: 15px;
+}
+
+.blockvadro3 {
+    float: right;
 }
